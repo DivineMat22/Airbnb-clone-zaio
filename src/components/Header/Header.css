@@ -1,0 +1,103 @@
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  .logo-section {
+    flex: 1;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    font-size: 16px;
+    color: #484848;
+    font-weight: 600;
+  }
+  
+  .nav-item:hover {
+    color: #ff5a5f;
+  }
+  
+  .search-buttons {
+    display: flex;
+    gap: 12px;
+    margin-left: 30px; /* Adds space between Experiences link and search buttons */
+  }
+  
+  .search-button {
+    padding: 12px 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #484848;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+    min-width: 120px;
+    text-align: left;
+  }
+  
+  .search-button:hover {
+    background-color: #ff5a5f;
+    border-color: #ff5a5f;
+    color: white;
+  }
+  
+  .search-button:focus {
+    outline: none;
+    border-color: #ff5a5f;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    background-color: #ff5a5f;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .nav-button:hover {
+    background-color: #f7f7f7;
+    color: #ff5a5f;
+    border-color: #f7f7f7;
+  }
+  
+  .profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
