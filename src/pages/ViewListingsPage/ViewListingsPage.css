@@ -1,0 +1,68 @@
+.view-listings-page {
+    padding: 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .view-listings-page h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .listings-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .listing-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .listing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .listing-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .listing-details {
+    padding: 1rem;
+  }
+  
+  .listing-details h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .listing-details p {
+    margin: 0.3rem 0;
+    color: #555;
+  }
+  
+  .listing-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .listing-actions button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ff385c;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .listing-actions button:hover {
+    background-color: #e31c5f;
+  }
+  
